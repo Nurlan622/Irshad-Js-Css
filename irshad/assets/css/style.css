@@ -1,0 +1,103 @@
+nav .col-7 .menu {
+  margin: 0;
+  align-items: center;
+}
+nav .col-7 .menu li {
+  padding: 10px;
+  list-style: none;
+}
+nav .col-7 .menu a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+nav .col-7 .menu a .brd-bttm {
+  border-bottom: 1px solid transparent;
+}
+nav .col-7 .menu a .brd-bttm:hover {
+  border-bottom: 1px solid black;
+  transition: 0.5s;
+}
+nav .col-7 .menu a img {
+  width: 100px;
+}
+nav .col-4 .menu {
+  margin: 0;
+  align-items: center;
+}
+nav .col-4 .menu li {
+  padding: 10px;
+  list-style: none;
+}
+nav .col-4 .menu li a {
+  text-align: center;
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
+}
+nav .col-4 .menu .num {
+  width: 100px;
+}
+nav .d-flex .inp {
+  width: 600px;
+}
+nav .d-flex .header-tools a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+nav .d-flex .header-tools a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+nav .d-flex .header-tools .btn {
+  width: 150px;
+  height: 80px;
+  border-color: #40b659;
+  background: white;
+  color: #40b659;
+}
+nav .d-flex .header-tools .btn:hover {
+  border-color: #40b659;
+  background: #40b659;
+  color: #fff;
+}
+
+.border-right {
+  border-right: 1px solid silver;
+}
+
+.border-top {
+  border-top: 1px solid silver;
+}
+
+.container-fluid .row .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container-fluid .row .product .head .product-tools {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  position: relative;
+}
+.container-fluid .row .product .head .product-tools .keyss {
+  position: absolute;
+  right: 1px;
+}
+.container-fluid .row .product .head .product-tools a {
+  color: silver;
+  text-decoration: none;
+}
+.container-fluid .row .product .head .product-tools a:hover {
+  transition: 0.3s;
+  color: orange;
+}
+.container-fluid .row .product .head .product-title {
+  margin-top: 10px;
+}
+.container-fluid .row .product .head .product-title img {
+  width: 250px;
+}

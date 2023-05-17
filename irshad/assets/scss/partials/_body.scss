@@ -1,0 +1,38 @@
+.container-fluid {
+    .row {
+        .product {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .head {
+                .product-tools {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    height: 30px;
+                    position: relative;
+                    .keyss{
+                        position: absolute;
+                        right: 1px;
+                    }
+                    a{
+                        color: silver;
+                        text-decoration: none;
+                        &:hover{
+                            transition: 0.3s;
+                            color: orange;
+                        }
+                    }
+                }
+
+                .product-title {
+                    margin-top: 10px;
+                    img {
+                        width: 250px;
+                    }
+                }
+            }
+        }
+    }
+}

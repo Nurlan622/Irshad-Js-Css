@@ -1,0 +1,95 @@
+nav {
+    .col-7 {
+        .menu {
+            margin: 0;
+            align-items: center;
+
+            li {
+                padding: 10px;
+                list-style: none;
+            }
+
+            a {
+                .brd-bttm {
+                    border-bottom: 1px solid transparent;
+
+                    &:hover {
+                        border-bottom: 1px solid black;
+                        transition: 0.5s;
+                    }
+                }
+
+                font-size: 15px;
+                text-decoration: none;
+                color: black;
+
+                img {
+                    width: 100px;
+                }
+            }
+        }
+    }
+
+    .col-4 {
+        .menu {
+            margin: 0;
+            align-items: center;
+
+            li {
+                padding: 10px;
+                list-style: none;
+
+                a {
+                    text-align: center;
+                    font-size: 15px;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+
+            .num {
+                width: 100px;
+            }
+        }
+    }
+
+    .d-flex {
+        .inp {
+            width: 600px;
+        }
+
+        .header-tools {
+            a {
+                text-decoration: none;
+                color: black;
+                padding: 10px;
+
+                &:hover {
+                    color: orange;
+                    transition: 0.5s;
+                }
+            }
+
+            .btn {
+                width: 150px;
+                height: 80px;
+                border-color: #40b659;
+                background: white;
+                color: #40b659;
+
+                &:hover {
+                    border-color: #40b659;
+                    background: #40b659;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+.border-right {
+    border-right: 1px solid silver;
+}
+.border-top{
+    border-top: 1px solid silver;
+}
